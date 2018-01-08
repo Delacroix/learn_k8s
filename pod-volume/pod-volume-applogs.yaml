@@ -15,6 +15,6 @@ spec:
       volumeMounts:
       - name: app-logs
         mountPath: /logs
-  volumes:
-  - name: app-logs
-    emptyDir: {}
+    volumes:
+    - name: app-logs
+      emptyDir: {}
